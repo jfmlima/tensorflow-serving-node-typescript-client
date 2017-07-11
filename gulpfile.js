@@ -1,6 +1,5 @@
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
-const jasmine = require('gulp-jasmine');
 const clean = require('gulp-clean');
 const runSequence = require('run-sequence');
 
@@ -22,10 +21,10 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
-gulp.task('test:run', function() {
-    return gulp.src('dist/spec/**')
-      .pipe(jasmine())
-});
+// gulp.task('test:run', function() {
+//     return gulp.src('dist/spec/**')
+//       .pipe(jasmine())
+// });
 
 gulp.task('watch', ['default'], function() {
     gulp.watch('src/*.ts', ['default']);

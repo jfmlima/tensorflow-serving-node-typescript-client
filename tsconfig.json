@@ -14,7 +14,7 @@
     "allowSyntheticDefaultImports": true,
     "removeComments": true,
     "experimentalDecorators": true,
-    "types" : ["node", "jasmine"]
+    "types" : ["node"]
   },
   "include": [
     "index.ts",

@@ -2,7 +2,7 @@
  * Node gRPC client for TensorFlow Serving server written in Typescript.
  */
 
-import grpc = require("grpc");
+const grpc = require("grpc");
 
 const PROTO_PATH = __dirname + '/protos/prediction_service.proto';
 

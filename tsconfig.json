@@ -17,6 +17,7 @@
     "types" : ["node"]
   },
   "include": [
+    "src/tf.serving.client.ts",
     "index.ts",
     "lib/**/*",
     "spec/**/*"

@@ -9,3 +9,7 @@ Initial Version
 <a name="0.0.2"></a>
 ## 0.0.2 (2017-07-11)
 Updated package.json
+
+<a name="0.0.3"></a>
+## 0.0.3 (2017-07-11)
+Updated tsconfig.json to generate all needed files

@@ -3,14 +3,14 @@
   "version": "0.0.1",
   "repository": {
     "type": "git",
-    "url": "git://wittydeveloper/typescript-npm-module-bootstrap.git"
+    "url": "git://Jflima92/tensorflow-serving-node-typescript-client.git"
   },
   "main": "dist/index.js",
   "typings": "definitions/index",
   "typescript": {
     "definition": "definitions/index"
   },
-  "description": "TypeScript NPM module bootstrap ",
+  "description": "Tensorflow Serving Client in Node.js + Typescript",
   "engineStrict": true,
   "devDependencies": {
     "@types/es6-shim": "^0.31.32",
@@ -32,7 +32,7 @@
     "test": "gulp test",
     "release": "standard-version"
   },
-  "author": "Charly POLY <hello@charlypoly.com>",
+  "author": "Jorge Lima <jorgefilipemlima@gmail.com>",
   "license": "MIT",
   "dependencies": {
     "@types/es6-shim": "^0.31.32",

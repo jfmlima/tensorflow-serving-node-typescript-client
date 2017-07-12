@@ -61,7 +61,7 @@ export class TensorflowServingClient {
                         for (i = 0; i < len; i += chunk) {
                             results.push(classes.slice(i, i + chunk));
                         }
-                        resolve(result);
+                        resolve(results);
                     }
                 })
         });

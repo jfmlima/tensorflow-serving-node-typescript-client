@@ -21,6 +21,11 @@ gulp.task('clean', function () {
         .pipe(clean());
 });
 
+gulp.task('copyProtos', function () {
+    gulp.src('protos/**/*')
+        .pipe(gulp.dest('dist/protos'));
+});
+
 // gulp.task('test:run', function() {
 //     return gulp.src('dist/spec/**')
 //       .pipe(jasmine())
@@ -34,5 +39,5 @@ gulp.task('test', [], function(cb) {
   runSequence('clean', 'build', 'test:run', cb);
 });
 gulp.task('default', [], function(cb) {
-    runSequence('clean', 'build', cb);
+    runSequence('clean', 'build', 'copyProtos', cb);
 });

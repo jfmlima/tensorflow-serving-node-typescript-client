@@ -4,8 +4,6 @@
 
 const grpc = require("grpc");
 
-const PROTO_PATH = __dirname + '/protos/prediction_service.proto';
-
 /**
  * Exports TensorflowServingClient.
  *
@@ -13,7 +11,7 @@ const PROTO_PATH = __dirname + '/protos/prediction_service.proto';
  */
 export class TensorflowServingClient {
     private readonly PROTO_PATH = __dirname + '/protos/prediction_service.proto';
-    private tensorflowServing: any = grpc.load(PROTO_PATH).tensorflow.serving;
+    private tensorflowServing: any = grpc.load(this.PROTO_PATH).tensorflow.serving;
     private serverUrl: string;
     private client: any;
 

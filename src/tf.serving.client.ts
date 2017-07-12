@@ -17,6 +17,7 @@ export class TensorflowServingClient {
 
     public constructor(serverUrl: string) {
         this.serverUrl = serverUrl;
+        this.Initialize();
     }
 
 

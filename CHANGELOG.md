@@ -25,3 +25,7 @@ Created gulp task to copy proto files to dist
 <a name="0.0.6"></a>
 ## 0.0.6 (2017-07-11)
 Proto files now being copied to the right folder
+
+<a name="0.0.7"></a>
+## 0.0.7 (2017-07-12)
+Added proper client initialization

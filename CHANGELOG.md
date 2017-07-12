@@ -29,3 +29,7 @@ Proto files now being copied to the right folder
 <a name="0.0.7"></a>
 ## 0.0.7 (2017-07-12)
 Added proper client initialization
+
+<a name="0.0.8"></a>
+## 0.0.8 (2017-07-12)
+Predict method now resolving correct value

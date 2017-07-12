@@ -33,3 +33,7 @@ Added proper client initialization
 <a name="0.0.8"></a>
 ## 0.0.8 (2017-07-12)
 Predict method now resolving correct value
+
+<a name="0.0.9"></a>
+## 0.0.9 (2017-07-12)
+Updated README to include usage example

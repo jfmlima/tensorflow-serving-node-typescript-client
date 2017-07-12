@@ -23,7 +23,7 @@ gulp.task('clean', function () {
 
 gulp.task('copyProtos', function () {
     gulp.src('protos/**/*')
-        .pipe(gulp.dest('dist/protos'));
+        .pipe(gulp.dest('dist/src/protos'));
 });
 
 // gulp.task('test:run', function() {

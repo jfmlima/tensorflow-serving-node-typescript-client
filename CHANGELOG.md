@@ -37,3 +37,7 @@ Predict method now resolving correct value
 <a name="0.0.9"></a>
 ## 0.0.9 (2017-07-12)
 Updated README to include usage example
+
+<a name="0.0.10"></a>
+## 0.0.10 (2017-10-31)
+Removed @types/es6-shim from dependencies
